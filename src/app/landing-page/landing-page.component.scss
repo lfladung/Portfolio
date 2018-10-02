@@ -1,7 +1,7 @@
 .project{
         width:40%; height:200px; margin:5%; float: left;
 }
-.parallax { 
+.parallax1 { 
     /* The image used */
     background-image: url("./../../assets/img/Resort.jpg");
 
@@ -14,6 +14,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax1 h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    outline: 10px solid coral;
+    padding: 5px;
+
+
+}
+
+.parallax2 h1{
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    outline: 10px solid coral;
+    padding: 5px;
+}
+
 
 .parallax2 { 
     /* The image used */

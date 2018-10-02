@@ -5,15 +5,19 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    NotFoundComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [],
